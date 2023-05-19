@@ -1,0 +1,33 @@
+# ===============================
+# SERVER CONFIGS
+# ===============================
+
+server:
+  port: 8080
+
+
+# ===============================
+# SPRING CONFIGS
+# ===============================
+
+spring:
+  application:
+    name: qr-generator
+
+
+# ===============================
+# REQUEST MAPPING
+# ===============================
+info:
+  app:
+    name: QR Generator
+    description: QR Generator
+    version: 1.0
+    basePackage: zw.dreamhub
+  contact:
+    name: Marlvin Chihota
+    url: https://dreamhub.tech
+    email: info@dreamhub.tech
+  url:
+    unSecured: /api/v1
+    secured: /api/v2
